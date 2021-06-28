@@ -1,6 +1,6 @@
 # Telegram meme bot
 
-[NKSAMA API](https://nksamamememapi.pythonanywhere.com)<br>
+[NKSAMA API](https://nksamamemeapi.pythonanywhere.com)<br>
 [NKSAMA API DOCS](https://t.me/nk_guy_logs_lol/20)
 
 
