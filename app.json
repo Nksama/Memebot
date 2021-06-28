@@ -9,13 +9,6 @@
 	], 
 
 	"repository": "https://github.com/nksama/Memebot", 
-	
-	"buildpacks": [
-		{
-			"heroku/python"
-		}
-	
-	],
 
 	"env": {
 
@@ -42,6 +35,13 @@
 		
 	}
 	
+	
+	  "buildpacks": [
+    	{
+      "url": "heroku/python"
+  	}
+
+  	],
 
 }
 
