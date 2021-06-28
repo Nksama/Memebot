@@ -1,0 +1,59 @@
+{
+
+	"name": "Memebot",
+	"description": "Telegram bot to get memes from nksama api",
+	"keywords": [
+		"meme",
+		"nksamamemeapi",
+		"telegram"
+	], 
+
+	"repository": "https://github.com/nksama/Memebot", 
+
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	], 
+
+	"env": {
+
+		"token": {
+			"description": "Bot token", 
+			"required": true,
+			"value":""
+
+		}, 
+
+		"api_id": {
+			"description": "https:my.telegram.org",
+			"required": true,
+			"value": "",
+
+		}, 
+
+
+		"api_hash": {
+			"description": "https:my.telegram.org",
+			"required": true,
+			"value": "",
+
+		},
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
