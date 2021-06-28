@@ -18,7 +18,7 @@ bot = Client(
 
 @bot.on_message(filters.command('start'))
 def start(_,message):
-	message.reply_text(start , parse_mode='markdown')
+	message.reply_text('.' , parse_mode='markdown')
 
 
 
