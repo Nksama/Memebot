@@ -15,14 +15,15 @@
     "API_HASH": {
       "description": "my.telegram.org",
       "value": "5"
-    }
-  },
+    },
+    
   "TOKEN": {
     "description": "@botfather"
   },
   
   
 }
+  
   "image": "heroku/python",
   "buildpacks": [
     {
