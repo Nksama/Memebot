@@ -1,54 +1,35 @@
 {
+  "name": "memebot",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "meme",
+    "telegram bot"
+  ],
+  "repository": "https://github.com/nksama/memebot",
+  "logo": "https://small-sharp-tool.com/logo.svg",
 
-	"name": "Memebot",
-	"description": "Telegram bot to get memes from nksama api",
-	"keywords": [
-		"meme",
-		"nksamamemeapi",
-		"telegram"
-	], 
+  "env": {
+    "API_ID": {
+      "description": "NONE",
+    },
+    "API_HASH": {
+      "description": "my.telegram.org",
+      "value": "5"
+    }
+  },
+  "TOKEN": {
+    "description": "@botfather"
+  },
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
 
-	"repository": "https://github.com/nksama/Memebot", 
-
-	"env": {
-
-		"TOKEN": {
-			"description": "Bot token", 
-			"required": true,
-			"value":""
-
-		}, 
-
-		"API_ID": {
-			"description": "https:my.telegram.org",
-			"required": true,
-			"value": "",
-
-		}, 
-
-
-		"API_HASH": {
-			"description": "https:my.telegram.org",
-			"required": true,
-			"value": "",
-		}
-		
-	}
-	
-	"buildpacks": [
-	{
-	"url": "heroku/python"
-	}
-	]
-	
-	
+  }
 
 }
-
-
-
-
-
 
 
 
