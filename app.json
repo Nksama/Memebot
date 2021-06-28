@@ -18,14 +18,14 @@
 
 	"env": {
 
-		"token": {
+		"TOKEN": {
 			"description": "Bot token", 
 			"required": true,
 			"value":""
 
 		}, 
 
-		"api_id": {
+		"API_ID": {
 			"description": "https:my.telegram.org",
 			"required": true,
 			"value": "",
@@ -33,7 +33,7 @@
 		}, 
 
 
-		"api_hash": {
+		"API_HASH	": {
 			"description": "https:my.telegram.org",
 			"required": true,
 			"value": "",
