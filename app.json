@@ -9,6 +9,13 @@
 	], 
 
 	"repository": "https://github.com/nksama/Memebot", 
+	
+	"buildpacks": [
+		{
+			"heroku/python"
+		}
+	
+	],
 
 	"env": {
 
@@ -31,7 +38,6 @@
 			"description": "https:my.telegram.org",
 			"required": true,
 			"value": "",
-
 		}
 		
 	}
