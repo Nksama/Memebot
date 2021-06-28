@@ -20,6 +20,9 @@
   "TOKEN": {
     "description": "@botfather"
   },
+  
+  
+}
   "image": "heroku/python",
   "buildpacks": [
     {
@@ -27,7 +30,6 @@
     }
   ],
 
-  }
 
 }
 
