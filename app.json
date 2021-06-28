@@ -33,7 +33,7 @@
 		}, 
 
 
-		"API_HASH	": {
+		"API_HASH": {
 			"description": "https:my.telegram.org",
 			"required": true,
 			"value": "",
