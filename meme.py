@@ -5,6 +5,7 @@ import os
 api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
 token = os.environ.get('TOKEN')
+START = os.environ.get('START')
 
 
 bot = Client(
@@ -18,7 +19,10 @@ bot = Client(
 
 @bot.on_message(filters.command('start'))
 def start(_,message):
-	message.reply_text('.' , parse_mode='markdown')
+	if START == '':
+		message.reply_text('Hello')
+	else:
+		message.reply_text(START , parse_mode='markdown')
 
 
 
