@@ -8,7 +8,7 @@ token = os.environ.get('TOKEN')
 
 
 bot = Client(
-	"memebot"
+	"memebot",
 	api_id=api_id,
 	api_hash=api_hash,
 	bot_token=token
