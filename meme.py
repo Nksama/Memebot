@@ -45,6 +45,11 @@ def hmeme(_,message):
 	title = r['title']
 	bot.send_photo(message.chat.id , pic , caption=title)
 
+@bot.on_message(filters.command('anifact'))
+def anifact(_,message):
+	res = requests.get('https://nksamamemeapi.pythonanywhere.com/anifact')
+	fact = res.get('fact')
+	message.reply_text(f'<b>{fact}</b>' , parse_mode='html')
 
 
 
