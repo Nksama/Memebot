@@ -1,51 +1,35 @@
 {
-  "name": "memebot",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "meme",
-    "telegram bot"
-  ],
-  "repository": "https://github.com/nksama/memebot",
-  "logo": "https://small-sharp-tool.com/logo.svg",
+    "name": "memebot",
+    "description": "memebot",
+    "keywords": [
+        "telegram",
+        "meme"
+    ],
+    "repository": "https://github.com/nksama/memebot",
+    "success_url": "https://t.me/nk_guy",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org!l",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org!",
+            "value": "",
+            "required": true
+        },
+      
+        "TOKEN": {
+          "description": "@botfather",
+          "value": "",
+          "required": true
+        }
 
-  "env": {
-    "API_ID": {
-      "description": "NONE",
     },
-    "API_HASH": {
-      "description": "my.telegram.org",
-      "value": "5"
-    },
-    
-  "TOKEN": {
-    "description": "@botfather"
-  },
-  
-  
-}
-  
-  "image": "heroku/python",
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-
-
-"formation": {
+    "formation": {
         "worker": {
             "quantity": 1,
             "size": "free"
         }
     }
-
-
-}
-
-
-
-
-
-
-
-
