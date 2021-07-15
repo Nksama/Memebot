@@ -1,35 +1,45 @@
 {
     "name": "memebot",
-    "description": "memebot",
+    "description": "Memebot",
+    "logo": "https://telegra.ph/file/b9f5607f4a24f9c40295f.png",
     "keywords": [
+        "memebot",
         "telegram",
-        "meme"
+        "pyrogram",
+        "python3"
     ],
+
     "repository": "https://github.com/nksama/memebot",
-    "success_url": "https://t.me/nk_guy",
-    "stack": "container",
+    "website": "https://github.com/nksama/memebot",
+    "succes_url": "https://t.me/nk_guy",
+    "stack": "Heroku-20",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org!l",
+            "description": "my.telegram.org",
             "value": "",
             "required": true
         },
+
         "API_HASH": {
-            "description": "Get this value from my.telegram.org!",
+            "description": "my.telegram.org",
             "value": "",
             "required": true
-        },
-      
+        }, 
+
         "TOKEN": {
-          "description": "@botfather",
-          "value": "",
-          "required": true
+            "description": "@botfather",
+            "value": "",
+            "required": true
         }
 
+
     },
+
     "formation": {
-        "worker": {
+        "memebot": {
             "quantity": 1,
             "size": "free"
         }
     }
+
+}
