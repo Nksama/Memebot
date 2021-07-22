@@ -1,1 +1,1 @@
-worker: python3 meme.py
+web: python3 meme.py
